@@ -12,7 +12,7 @@ import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
 function PhotoGrid() {
     return ( 
         <>
-        <Box sx={{width:"80vw",margin:"auto",paddingTop:"50px"}}>
+        <Box sx={{width:"80vw",margin:"auto",paddingTop:"50px",padding:"auto"}}>
         <Grid container>
     <Grid  item size={6} sx={{paddingLeft:"70px"}} >
      <Box>
