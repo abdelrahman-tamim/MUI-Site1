@@ -1,0 +1,12 @@
+.maindiv {
+    height: 70vh;
+    width: 100%;
+    background-color: #005672;
+    position: relative;
+}
+.firstimg{
+    height: 500px;
+    position: absolute;
+    left:270px;
+    top:156px;
+}
