@@ -12,9 +12,9 @@ import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
 function PhotoGrid() {
     return ( 
         <>
-        <Box sx={{width:"80%",marginLeft:"180px",paddingTop:"50px"}}>
+        <Box sx={{width:"80vw",margin:"auto",paddingTop:"50px"}}>
         <Grid container>
-    <Grid  item size={6} >
+    <Grid  item size={6} sx={{paddingLeft:"70px"}} >
      <Box>
      <Typography sx={{marginTop:"2px"}} variant="h3" color="Black" >
         One-On-One Live <br/> Mentorship </Typography><br/>
@@ -26,7 +26,7 @@ function PhotoGrid() {
         <AnimationRoundedIcon sx={{color:"teal"}}></AnimationRoundedIcon>
         <Typography sx={{marginTop:"2px"}} variant="subtitle" color="grey" >Personalize Your learning Exprince</Typography>
         </Box>
-        <Box sx={{display:"flex", gap:"10px",marginTop:"7px"}}>
+        <Box sx={{display:"flex", gap:"10px"}}>
         <GradingRoundedIcon sx={{color:"teal"}}></GradingRoundedIcon>
         <Typography sx={{marginTop:"2px"}} variant="subtitle" color="grey" >Get Answers To complex Problems</Typography>
         </Box>
@@ -39,7 +39,7 @@ function PhotoGrid() {
     <Grid item size={6}>
     <Box> <img src={imgtwo} alt="" /></Box>
      </Grid>
-     <Grid item size={6}>
+     <Grid item size={6} sx={{paddingLeft:"50px"}}>
      <Box >
      <Typography sx={{marginTop:"2px"}} variant="h3" color="Black" >
        Project Based Freelance <br/> Work </Typography><br/>
