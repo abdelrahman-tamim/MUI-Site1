@@ -61,7 +61,7 @@ function PhotoGrid() {
   <Grid item size={6} sx={{paddingLeft:"50px"}} >
  <Box> <img src={imgthree} alt="" /> </Box>
   </Grid>
-  <Grid item size={6} sx={{paddingLeft:"60px"}}>
+  <Grid item size={6} sx={{paddingLeft:"60px",paddingTop:"50px"}}>
   <Box>
      <Typography sx={{marginTop:"2px"}} variant="h5" color="Black" >
        Arc ( ) </Typography>
