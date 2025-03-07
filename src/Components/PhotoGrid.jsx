@@ -58,10 +58,10 @@ function PhotoGrid() {
         <Button variant="contained" sx={{background:"#ff6b54",marginTop:"20px",padding:"10px"}}>Find A mentor</Button>
       </Box>    
      </Grid>
-  <Grid item size={6}>
+  <Grid item size={6} sx={{paddingLeft:"50px"}} >
  <Box> <img src={imgthree} alt="" /> </Box>
   </Grid>
-  <Grid item size={6}>
+  <Grid item size={6} sx={{paddingLeft:"60px"}}>
   <Box>
      <Typography sx={{marginTop:"2px"}} variant="h5" color="Black" >
        Arc ( ) </Typography>
